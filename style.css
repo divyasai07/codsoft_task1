@@ -1,0 +1,230 @@
+a {
+  margin: 30px 10px 10px 10px;
+  text-decoration: none;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+}
+html {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+ul {
+  margin: 10px;
+  overflow: hidden;
+  list-style-type: none;
+  position: absolute;
+}
+li {
+  float: left;
+}
+li a {
+  display: inline-block;
+  text-align: center;
+  padding: 14px;
+  color: #000;
+  font-weight: bold;
+}
+a:hover {
+  color: white;
+  background-color: black;
+}
+.nav {
+  left: 250px;
+  float: left;
+}
+.section {
+  width: 100%;
+  height: 100vh;
+  gap: 50px;
+}
+.heading {
+  position: absolute;
+  top: 200px;
+  font-size: 55px;
+  font-weight: bold;
+  left: 80px;
+  font-family: Roboto;
+  width: 500px;
+  word-wrap: break-word;
+}
+.p1 {
+  color: #709ba4;
+}
+.nav {
+  float: left;
+}
+.bar {
+  width: 100%;
+  position: absolute;
+  font-size: 18px;
+  left: 400px;
+  top: 0;
+  margin-left: 30px;
+}
+.header {
+  width: 100%;
+  position: absolute;
+  font-size: 15px;
+  top: 15px;
+  left: 30px;
+}
+.subheading {
+  margin: 30px;
+  font-size: medium;
+  font-weight: lighter;
+}
+.action {
+  background: #709ba4;
+  color: white;
+  border-color: #709ba4;
+  margin-top: 30px;
+  border-radius: 40px;
+  padding: 20px;
+  font-size: large;
+  font-weight: bold;
+}
+.section2 {
+  margin-top: 5px;
+  align-items: center;
+}
+.color {
+  background-color: #709ba4;
+  background-size: cover;
+  width: 100%;
+  height: 80%;
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+img.services {
+  position: absolute;
+  left: 40px;
+}
+ul section2 {
+  overflow: hidden;
+  list-style-type: none;
+  position: absolute;
+}
+li img {
+  padding: 125px;
+}
+.para {
+  display: block;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 320px;
+  padding-left: 105px;
+}
+.title {
+  font-size: 50px;
+  color: #709ba4;
+  position: absolute;
+  top: 1250px;
+  padding-left: 570px;
+}
+
+.one {
+  float: left;
+  margin: 20px 0 10px 10px;
+  padding-top: 20px;
+  padding-left: 30px;
+  width: 30%;
+  align-items: center;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.button {
+  border: 3px solid;
+  border-radius: 10px;
+  margin: 340px 160px 40px;
+  height: 40px;
+  width: 90px;
+  padding: 20px 5px 1px;
+  text-align: center;
+  color: white;
+  border-color: #709ba4;
+  background-color: #709ba4;
+}
+.button:hover {
+  background-color: black;
+}
+h1.food {
+  padding: 10px 110px 0;
+  font-size: 40px;
+  color: #000;
+  font-weight: 700;
+}
+.list1 {
+  padding-left: 0px;
+}
+ul.middle {
+  float: left;
+  margin: 550px 10px 0;
+  padding-left: 5px;
+}
+li.m1 {
+  display: flex;
+  padding: 0px 0px 0px 20px;
+}
+img.img {
+  float: left;
+  margin: 20px 40px 10px 10px;
+  padding-top: 20px;
+  align-items: center;
+  width: 70%;
+  padding-left: 50px;
+}
+.part1 {
+  height: 80%;
+  background-color: white;
+}
+.footer {
+  background-color: #709ba4;
+  height: 50%;
+}
+.h2 {
+  float: left;
+  padding-left: 170px;
+  font-size: 30px;
+  color: black;
+}
+div.col {
+  float: left;
+}
+ul.list {
+  padding: 60px 120px 0;
+}
+li.li {
+  width: 140px;
+  padding-left: 50px;
+  float: none;
+  color: white;
+  font-size: 17px;
+  list-style: none;
+}
+input {
+  text-align: center;
+}
+textarea {
+  text-align: center;
+}
+.footer1 {
+  padding: 250px 500px 0px;
+}
